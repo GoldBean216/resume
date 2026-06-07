@@ -1,0 +1,61 @@
+{
+  "game_yzr": {
+    "title": "影之刃.断罪者",
+    "description": "• 负责登录、支付模块的开发以及 SDK 接入\n• 负责系统功能的开发维护，包括新手引导、创角、抽卡、心法升级、副本组队、公告、线上活动更新等功能\n• 负责网络通信功能优化，解决网络延迟卡顿、优化网络断线重连的问题\n• 负责资源管理功能的维护开发，使用 Addressable 优化资源管理\n• 负责渲染效果优化，包括场景天气、描边、X-Ray 等基础 Shader 效果\n• 负责移动平台出包优化适配，处理 Android 和 iOS 底层问题\n• 负责 PS、Epic 平台适配，通过 Ps 平台 TRC 规则上线测试\n• 负责多语言本地化开发、字幕音频匹配系统的开发和维护\n• 负责PC、PS 端手柄适配接入\n• 负责 Jenkins 自动化出包",
+    "tags": [
+      "2D",
+      "ARPG",
+      "Unity",
+      "水墨风"
+    ],
+    "images": [
+      "https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/yzrnew1024.png",
+      "https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/yzr435.png",
+      "https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/yzr300.png"
+    ]
+  },
+  "game_dw": {
+    "title": "大王不开心",
+    "description": "2D 回合制卡牌手游，负责系统开发维护。改编自同名人气漫画，拥有丰富的角色养成系统和策略性的战斗体验。",
+    "tags": [
+      "2D",
+      "回合制",
+      "卡牌",
+      "Unity"
+    ],
+    "images": [
+      "https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/dwnew1024.png",
+      "https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/dw435.png",
+      "https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/dw300.png"
+    ]
+  },
+  "tech_memory": {
+    "title": "内存优化",
+    "description": "熟悉 Unity 相关内存管理和优化。包括堆内存、非堆内存的监控，以及如何通过 Profiler 定位内存泄漏并进行针对性优化。",
+    "tags": [
+      "Performance",
+      "Optimization",
+      "Unity",
+      "Memory"
+    ],
+    "images": [
+      "https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/nc1024.png",
+      "https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/nc435.png",
+      "https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/nc300.png"
+    ]
+  },
+  "tech_resource": {
+    "title": "资源管理",
+    "description": "熟悉 Addressable、Assetbundle 的运用。实现高效的资源加载、卸载和热更新流程，确保游戏包体大小可控且加载流畅。",
+    "tags": [
+      "Addressables",
+      "AssetBundle",
+      "Resource Management"
+    ],
+    "images": [
+      "https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/ab1024.png",
+      "https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/ab435.png",
+      "https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/ab300.png"
+    ]
+  }
+}

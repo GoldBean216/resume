@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>个人项目集展示</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<link rel='stylesheet' href='https://assets.codepen.io/573855/swiper.min.css'>
+	<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+	<!-- 
+    Horizontal, responsive carousel (Swiper-based) enhanced with GSAP ScrollTrigger for 
+    scroll-synchronized animations. It supports both scrubbed (scroll-controlled) and free-swiping modes.
+    -->
+
+	<div class="viewport-wrapper">
+		<div class="content-scroll">
+			<main class="main-content">
+				<div class="dummy-block">
+					<div>
+						<h2>滚动鼠标浏览作品</h2>
+						<h3>向下滑动<br>↓</h3>
+					</div>
+				</div>
+				<div class="carousel" id="carousel_1">
+					<div class="wrapper">
+						<div class="text-before">
+							<h2>游戏项目介绍.</h2>
+						</div>
+						<div class="swiper-container">
+							<div class="swiper-column-gap"></div>
+							<div class="swiper-wrapper">
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/yzr300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/yzr435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/yzrnew1024.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/yzrnew1024.png"
+													width="1024" height="1024"
+													alt="Exploding digital billboard structure" decoding="sync">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>ARPG、2D </h3>
+											<p>影之刃.断罪者，精通横屏2D ARPG游戏
+												游戏系统功能开发</p>
+											<a href="#" data-project-id="game_yzr" class="cta-button"><span
+													class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/dw300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/dw435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/dwnew820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/dwnew1024.png"
+													width="1024" height="1024"
+													alt="Twisted billboard becoming a sculpture" decoding="sync">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>卡牌、回合制、2D</h3>
+											<p> 大王不开心，熟悉卡牌游戏系统功能开发</p>
+											<a href="#" data-project-id="game_dw" class="cta-button"><span
+													class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/rok300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/rok435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/roknew820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/roknew1024.png"
+													width="1024" height="1024"
+													alt="Giant shark built from mechanical debris" decoding="sync">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>SLG</h3>
+											<p>熟悉SLG游戏系统功能开发</p>
+											<a href="#" data-project-id="game_roc" class="cta-button"><span
+													class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/dl300.png 300w,https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/dl435.png 435w,https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/dlnew820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/dlnew1024.png"
+													width="1024" height="1024" alt="Decomposed cartoon head in desert"
+													decoding="async">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>MMO RPG</h3>
+											<p>熟悉MMO RPG游戏系统功能开发</p>
+											<a href="#" data-project-id="game_dl" class="cta-button"><span
+													class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/rok300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/rok435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/ronew820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/ronew1024.png"
+													width="1024" height="1024"
+													alt="Exploding structure of digital billboards" decoding="async">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>MMORPG</h3>
+											<p>熟悉MMORPG游戏系统功能开发</p>
+											<a href="#" data-project-id="game_ro" class="cta-button"><span
+													class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/qq300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/qq435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/qq820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/qq1024.png"
+													width="1024" height="1024"
+													alt="Exploding structure of digital billboards" decoding="async">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>赛车、竞速</h3>
+											<p>赛车竞速休闲游戏，功能开发.</p>
+											<a href="#" data-project-id="game_qq"
+												class="cta-button"><span class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/bp300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/bp435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/bp820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/bp1024.png"
+													width="1024" height="1024"
+													alt="Swirling paper chaos in industrial yard" decoding="async">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>休闲、分类、消除</h3>
+											<p>熟悉休闲分类游戏系统功能开发</p>
+											<a href="#" data-project-id="game_gf"
+												class="cta-button"><span class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/cf300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/cf435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/cfnew820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/cfnew1024.png"
+													width="1024" height="1024"
+													alt="Swirling paper chaos in industrial yard" decoding="async">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>Puzzle、休闲</h3>
+											<p>熟悉休闲Puzzle游戏系统功能开发</p>
+											<a href="#" data-project-id="game_cf"
+												class="cta-button"><span class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/m300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/m435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/mnew820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/mnew1024.png"
+													width="1024" height="1024"
+													alt="Swirling paper chaos in industrial yard" decoding="async">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>2048、休闲</h3>
+											<p>回到明朝2048 历史趣味休闲游戏.</p>
+											<a href="#" data-project-id="game_m"
+												class="cta-button"><span class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/cat300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/cat435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/catnew820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/catnew1024.png"
+													width="1024" height="1024"
+													alt="Swirling paper chaos in industrial yard" decoding="async">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>棋盘、休闲、益智</h3>
+											<p>Cat Tactics四子棋休闲益智游戏.</p>
+											<a href="#" data-project-id="game_cat"
+												class="cta-button"><span class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination-container">
+							<div class="swiper-pagination-wrapper swiper-no-swiping">
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel" id="carousel_2">
+					<div class="wrapper">
+						<div class="text-before">
+							<h2>APP、AR、VR、虚拟仿真项目 .</h2>
+						</div>
+						<div class="swiper-container">
+							<div class="swiper-column-gap"></div>
+							<div class="swiper-wrapper">
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/bongo300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/bingo435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/bingonew820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/bingonew1024.png"
+													width="1024" height="1024" loading="lazy" decoding="async"
+													alt="Glitched mouse character with distorted facial features">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>Bingo AR儿童教育App</h3>
+											<p>基于AR的绘本教育APP.</p>
+											<a href="#" data-project-id="app_bingo"
+												class="cta-button"><span class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/pico300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/pico435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/piconew820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/piconew1024.png"
+													width="1024" height="1024" loading="lazy" decoding="async"
+													alt="Exploding structure of a giant cartoon mouse head">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>VR 教育应用管理平台</h3>
+											<p>三端管理的SaaS VR应用内容管理系统.</p>
+											<a href="#" data-project-id="app_pico"
+												class="cta-button"><span class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/vr300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/vr435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/vr820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/vr1024.png"
+													width="1024" height="1024" loading="lazy" decoding="async"
+													alt="Organic architecture glitching in desert">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>VR应用内容开发</h3>
+											<p>自然科学课程的VR场景开发，火山、海洋、太空、人体等场景的3dVR场景.</p>
+											<a href="#" data-project-id="app_vr"
+												class="cta-button"><span class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/hk300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/hk435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/hk820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/hk1024.png"
+													width="1024" height="1024" loading="lazy" decoding="async"
+													alt="Collapsed alien-looking structure with glitch effects">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>虚拟仿真内容开发</h3>
+											<p>K12教育课程的虚拟仿真内容开发，包括物理、化学、生物的模拟实验</p>
+											<a href="#" data-project-id="app_hk"
+												class="cta-button"><span class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/holo300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/holo435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/holo820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/holo1024.png"
+													width="1024" height="1024" loading="lazy" decoding="async"
+													alt="Cartoon dog statue overtaken by mechanical wires">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>MR应用内容开发</h3>
+											<p>基于HoloLens2、kinect 设备的MR内容开发</p>
+											<a href="#" data-project-id="app_holo"
+												class="cta-button"><span class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/qx300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/qx435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/qx820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/qx1024.png"
+													width="1024" height="1024" loading="lazy" decoding="async"
+													alt="Distorted mickey-shaped head floating above desert">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>全息盒子应用开发</h3>
+											<p>基于全息盒子，开发展示全息模型动画.</p>
+											<a href="#" data-project-id="app_qx"
+												class="cta-button"><span class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-navigation-container">
+								<div class="swiper-navigation-wrapper swiper-no-swiping">
+									<div class="swiper-prev hide">
+										<svg aria-hidden="true" focusable="false" viewBox="0 0 40 40">
+											<path fill="currentColor"
+												d="m27.042 4.792 1.333 1.25-13.917 13.917 13.917 13.833-1.333 1.333-15.167-15.166L27.042 4.792z">
+											</path>
+										</svg>
+									</div>
+									<div class="swiper-next hide">
+										<svg aria-hidden="true" focusable="false" viewBox="0 0 40 40">
+											<path fill="currentColor"
+												d="m13.208 35.125-1.333-1.25 13.917-13.917L11.875 6.125l1.333-1.333 15.167 15.166Z">
+											</path>
+										</svg>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination-container">
+							<div class="swiper-pagination-wrapper swiper-no-swiping">
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel" id="carousel_3">
+					<div class="wrapper">
+						<div class="text-before">
+							<h2>技术栈.</h2>
+						</div>
+						<div class="swiper-container">
+							<div class="swiper-column-gap"></div>
+							<div class="swiper-wrapper">
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/jb300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/jb435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/jb820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/jb1024.png"
+													width="1024" height="1024" loading="lazy" decoding="async"
+													alt="Pagoda-like structure breaking apart with glitch fragments">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>jenkins 自动化打包</h3>
+											<p>熟悉jenkins 自动化打包流程.</p>
+											<a href="#" data-project-id="tech_jenkins" class="cta-button"><span
+													class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/gp300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/gp435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/gp820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/gp1024.png"
+													width="1024" height="1024" loading="lazy" decoding="async"
+													alt="Pagoda-like structure breaking apart with glitch fragments">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>GamePlay玩法</h3>
+											<p>熟悉GamePlay玩法设计与开发.</p>
+											<a href="#" data-project-id="tech_gameplay" class="cta-button"><span
+													class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/nc300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/nc435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/nc820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/nc1024.png"
+													width="1024" height="1024" loading="lazy" decoding="async"
+													alt="Pagoda-like structure breaking apart with glitch fragments">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>内存优化</h3>
+											<p>熟悉unity相关内存管理和优化.</p>
+											<a href="#" data-project-id="tech_memory" class="cta-button"><span
+													class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/ab300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/ab435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/ab820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/ab1024.png"
+													width="1024" height="1024" loading="lazy" decoding="async"
+													alt="Detached mouse mascot head with cables in post-apocalyptic setting">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>资源管理</h3>
+											<p>熟悉Addressable、Assetbundle的运用.</p>
+											<a href="#" data-project-id="tech_resource" class="cta-button"><span
+													class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/wl300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/wl435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/wl820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/wl1024.png"
+													width="1024" height="1024" loading="lazy" decoding="async"
+													alt="Billboard structure spiraling into a digital tornado">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>网络通信</h3>
+											<p>熟悉前后端的tcp、udp网络通信技术.</p>
+											<a href="#" data-project-id="tech_network"
+												class="cta-button"><span class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/shader300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/shader435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/shader820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/shader1024.png"
+													width="1024" height="1024" loading="lazy" decoding="async"
+													alt="Glitch-formed ocean wave crashing under a digital sun">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>图形学</h3>
+											<p>熟悉渲染管线、shader基础原理.</p>
+											<a href="#" data-project-id="tech_graphics"
+												class="cta-button"><span class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/dm300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/dm435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/dm820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/dm1024.png"
+													width="1024" height="1024" loading="lazy" decoding="async"
+													alt="Cartoon character face melting through glitch distortions">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>编程语言</h3>
+											<p>熟悉c#、lua、TS、java、oc、c++等相关编程语言.</p>
+											<a href="#" data-project-id="tech_language"
+												class="cta-button"><span class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/rgx300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/rgx435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/rgx820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/rgx1024.png"
+													width="1024" height="1024" loading="lazy" decoding="async"
+													alt="Constructed mascot face from patched metal with glitching">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>热更新</h3>
+											<p>了解xlua、tolua、HyBridCLR、ILRuntime、Puerts主流热更新技术.</p>
+											<a href="#" data-project-id="tech_hotfix"
+												class="cta-button"><span class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/fgui300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/fgui435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/fgui820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/fgui1024.png"
+													width="1024" height="1024" loading="lazy" decoding="async"
+													alt="Cybernetic shark erupting through ground debris">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>Fairygui</h3>
+											<p>了解FGUI基本原理.</p>
+											<a href="#" data-project-id="tech_fgui"
+												class="cta-button"><span class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/ugui300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/ugui435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/ugui820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/ugui1024.png"
+													width="1024" height="1024" loading="lazy" decoding="async"
+													alt="Curved wave of threads and clouds in surreal motion">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>UGUI</h3>
+											<p>熟悉UGUI基本原理.</p>
+											<a href="#" data-project-id="tech_ugui"
+												class="cta-button"><span class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide no-interaction">
+									<div class="card">
+										<div class="media-container">
+											<picture>
+												<source
+													srcset="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/ai300.png 300w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/ai435.png 435w, https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/ai820.png 820w"
+													sizes="(max-width:51.29875em) 100vw, 500px">
+												<img class="fit-cover middle-center"
+													src="https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/ai1024.png"
+													width="1024" height="1024" loading="lazy" decoding="async"
+													alt="Curved wave of threads and clouds in surreal motion">
+											</picture>
+										</div>
+										<div class="card-text">
+											<h3 class='title'>Unity AI </h3>
+											<p>熟悉Unity AI工作流.</p>
+											<a href="#" data-project-id="tech_ai"
+												class="cta-button"><span class="text">查看详情</span></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination-container">
+							<div class="swiper-pagination-wrapper swiper-no-swiping">
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="dummy-block">
+					<div>
+						<h3>↑<br>向上滑动</h3>
+						<h2>滚动鼠标滚轮浏览更多内容</h2>
+					</div>
+				</div>
+			</main>
+		</div>
+	</div>
+
+	<div id="app_blocker"></div>
+
+	<div id="project-modal" class="project-modal">
+		<div class="modal-container">
+			<div class="topbar">
+				<span id="tp-close" class="back-button">返回</span>
+				<h2 id="modal-title">Project Detail</h2>
+				<span id="tp-grid-collapse" class="back-button" style="display:none;">收起</span>
+			</div>
+			<div class="modal-body">
+				<div class="project-info">
+					<h3 id="info-title">UI Design Collection</h3>
+					<p id="info-description">Explore our latest UI design concepts, focusing on clean aesthetics and
+						intuitive user experiences. This collection showcases various components and layouts designed
+						for modern web applications.</p>
+					<div class="project-tags">
+						<span>Web Design</span>
+						<span>UI/UX</span>
+						<span>Interaction</span>
+					</div>
+				</div>
+				<div class="grid-wrapper">
+					<ul id="tp-grid" class="tp-grid">
+						<!-- Sample items for Stapel grid -->
+						<li data-pile="Gallery">
+							<a href="#"><img src="https://picsum.photos/400/300?random=1" /></a>
+						</li>
+						<li data-pile="Gallery">
+							<a href="#"><img src="https://picsum.photos/400/300?random=2" /></a>
+						</li>
+						<li data-pile="Gallery">
+							<a href="#"><img src="https://picsum.photos/400/300?random=3" /></a>
+						</li>
+						<li data-pile="Gallery">
+							<a href="#"><img src="https://picsum.photos/400/300?random=4" /></a>
+						</li>
+						<li data-pile="Gallery">
+							<a href="#"><img src="https://picsum.photos/400/300?random=5" /></a>
+						</li>
+						<li data-pile="Gallery">
+							<a href="#"><img src="https://picsum.photos/400/300?random=6" /></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="resources-layer">
+		<div class="resources">
+			<a href="https://www.lessrain.com">Less Rain GmbH</a>
+			<a href="https://codepen.io/collection/bNyZkZ">JavaScript Codepen Collection</a>
+			<a href="https://codepen.io/collection/vOBVrG">Codepen Challenges Collection</a>
+		</div>
+	</div> -->
+	<script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="./js/modernizr.js"></script>
+	<script src="./js/jquery.stapel.js"></script>
+	<script src='https://assets.codepen.io/573855/utils-v3.min.js?v=3'></script>
+	<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+	<script src='https://assets.codepen.io/16327/ScrollTrigger.min.js?v=3.12'></script>
+	<script src='https://assets.codepen.io/16327/ScrollSmoother.min.js?v=3.12'></script>
+	<script src='https://assets.codepen.io/573855/swiper.min.js'></script>
+	<script src="./script.js"></script>
+
+</body>
+
+</html>

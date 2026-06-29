@@ -1112,6 +1112,16 @@ document.addEventListener("DOMContentLoaded", () => {
 				delay: 50,
 				gutter: 20,
 				pileAngles: 3,
+				onLoad: function () {
+					setTimeout(function () {
+						var $firstItem = $grid.find('li').first();
+						if ($firstItem.length) {
+							$firstItem.trigger('click');
+						}
+						// Force a resize check for layout
+						$(window).trigger('debouncedresize');
+					}, 100);
+				},
 				onBeforeOpen: function (pileName) {
 					$('#modal-title').html(pileName);
 				},
@@ -1177,17 +1187,15 @@ document.addEventListener("DOMContentLoaded", () => {
 				initStapel();
 			} else {
 				stapelInstance.closePile();
+				// Auto-open if already initialized (fallback)
+				setTimeout(function () {
+					var $firstItem = $grid.find('li').first();
+					if ($firstItem.length) {
+						$firstItem.trigger('click');
+					}
+					$(window).trigger('debouncedresize');
+				}, 100);
 			}
-
-			// Automatically trigger the first pile to show content
-			setTimeout(function () {
-				var $firstItem = $grid.find('li').first();
-				if ($firstItem.length) {
-					$firstItem.trigger('click');
-				}
-				// Force a resize check for layout
-				$(window).trigger('debouncedresize');
-			}, 400);
 		});
 
 		$('#tp-grid-collapse').on('click', function () {

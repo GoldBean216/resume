@@ -852,7 +852,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		},
 		"game_roc": {
 			"title": "Origin of Conquerors",
-			"description": "• 负责 SLG 手游的核心系统功能开发与迭代。\n• 开发与优化大地图（World Map）视野裁剪与网格加载机制，大幅减少了地图上的 Draw Call 和内存消耗。\n• 负责行军路线动态计算、行军特效以及城建系统的底层架构逻辑。\n• 处理多玩家同屏时的帧率卡顿问题，实现了动态帧率控制和网格合并优化。",
+			"description": "• 熟悉 SLG 手游的核心系统功能开发与迭代。\n• 开发与优化大地图（World Map）视野裁剪与网格加载机制，大幅减少了地图上的 Draw Call 和内存消耗。\n• 熟悉行军路线动态计算、行军特效以及城建系统的底层架构逻辑。\n• 处理多玩家同屏时的帧率卡顿问题，实现了动态帧率控制和网格合并优化。",
 			"tags": ["Unity", "SLG", "3D", "大地图优化"],
 			"images": [
 				"https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/roknew1024.png",
@@ -862,7 +862,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		},
 		"game_dl": {
 			"title": "斗罗大陆手游",
-			"description": "• 负责 3D MMO RPG 手游的核心日常任务、副本系统、组队逻辑开发。\n• 优化场景加载 and 视锥体裁剪（Frustum Culling），有效提升在复杂多人战斗场景中的帧率稳定性。\n• 协助实现基于状态机（FSM）的玩家技能与怪物 AI 行为逻辑，提升了战斗的流畅性与操作打击感。\n• 针对中低端机型进行包体适配 and LOD 优化。",
+			"description": "• 熟悉 3D MMO RPG 手游的核心日常任务、副本系统、组队逻辑开发。\n• 优化场景加载 and 视锥体裁剪（Frustum Culling），有效提升在复杂多人战斗场景中的帧率稳定性。\n• 协助实现基于状态机（FSM）的玩家技能与怪物 AI 行为逻辑，提升了战斗的流畅性与操作打击感。\n• 针对中低端机型进行包体适配 and LOD 优化。",
 			"tags": ["MMORPG", "Unity", "3D", "场景优化"],
 			"images": [
 				"https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/dlnew1024.png",
@@ -872,7 +872,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		},
 		"game_ro": {
 			"title": "Ragnarok Origin",
-			"description": "• 参与大型多人在线角色扮演游戏（MMORPG）的玩法开发及本地化迭代。\n• 负责社交系统（公会、好友、聊天）、纸娃娃时装系统（Avatar System）的优化与重构，优化动态合图，减少因玩家换装带来的瞬时卡顿。\n• 处理海外版本适配，解决特殊分辨率适配、右反向排版、字形缓存爆满问题。\n• 优化资源打包与更新流，降低初始安装包大小。",
+			"description": "• 参与大型多人在线角色扮演游戏（MMORPG）的玩法开发及本地化迭代。\n• 熟悉社交系统（公会、好友、聊天）、纸娃娃时装系统（Avatar System）的优化与重构，优化动态合图，减少因玩家换装带来的瞬时卡顿。\n• 处理海外版本适配，解决特殊分辨率适配、右反向排版、字形缓存爆满问题。\n• 优化资源打包与更新流，降低初始安装包大小。",
 			"tags": ["MMORPG", "Unity", "3D", "纸娃娃系统"],
 			"images": [
 				"https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/ronew1024.png",
@@ -882,7 +882,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		},
 		"game_qq": {
 			"title": "飞车手游",
-			"description": "• 负责 3D 赛车竞速类游戏的游戏玩法、车辆物理参数微调系统及成就系统的开发。\n• 优化赛车碰撞检测及刚体（Rigidbody）动力学计算，解决高速移动时的穿墙与同步抖动问题。\n• 核心竞速 UI 界面及动态特效衔接，优化 UGUI 渲染批次（Canvas Rebuild），确保竞速过程中的高帧率响应。\n• 支持手柄及重力感应操作的适配工作。",
+			"description": "• 熟悉 3D 赛车竞速类游戏的游戏玩法、车辆物理参数微调系统及成就系统的开发。\n• 优化赛车碰撞检测及刚体（Rigidbody）动力学计算，解决高速移动时的穿墙与同步抖动问题。\n• 核心竞速 UI 界面及动态特效衔接，优化 UGUI 渲染批次（Canvas Rebuild），确保竞速过程中的高帧率响应。\n• 支持手柄及重力感应操作的适配工作。",
 			"tags": ["3D", "竞速", "Unity", "物理引擎"],
 			"images": [
 				"https://xiaofengimg.oss-cn-beijing.aliyuncs.com/images/qq1024.png",
